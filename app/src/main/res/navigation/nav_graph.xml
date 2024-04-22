@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_note_list">
+
+    <fragment
+        android:id="@+id/fragment_note_list"
+        android:name="pt.ipvc.nuoliveira.lab2.ui.NoteListFragment"
+        android:label="@string/fragment_note_list_title"
+        tools:layout="@layout/fragment_note_list">
+        <action
+            android:id="@+id/action_note_list_to_new_note"
+            app:destination="@id/fragment_new_note" />
+        <action
+            android:id="@+id/action_note_list_to_edit_note"
+            app:destination="@id/fragment_edit_note" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_new_note"
+        android:name="pt.ipvc.nuoliveira.lab2.ui.NewNoteFragment"
+        android:label="@string/fragment_new_note_title"
+        tools:layout="@layout/fragment_new_note" />
+
+    <fragment
+        android:id="@+id/fragment_edit_note"
+        android:name="pt.ipvc.nuoliveira.lab2.ui.EditNoteFragment"
+        android:label="@string/fragment_edit_note_title"
+        tools:layout="@layout/fragment_edit_note" />
+
+</navigation>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab 2</string>
+    <string name="fragment_note_list_title">Notas</string>
+    <string name="fragment_note_list_menu_new_note">Nova nota</string>
+    <string name="fragment_new_note_title">Nova nota</string>
+    <string name="fragment_new_note_menu_create">Criar nota</string>
+    <string name="fragment_new_note_text_hint">Texto</string>
+    <string name="fragment_new_note_success">Nota criada com sucesso</string>
+    <string name="fragment_new_note_error">Introduza um mínimo de 5 carateres</string>
+    <string name="fragment_edit_note_title">Editar nota</string>
+    <string name="fragment_edit_note_menu_update">Atualizar nota</string>
+    <string name="fragment_edit_note_menu_delete">Eliminar nota</string>
+    <string name="fragment_edit_note_text_hint">Texto</string>
+    <string name="fragment_edit_note_success">Nota atualizada com sucesso</string>
+    <string name="fragment_edit_note_error">Introduza um mínimo de 5 carateres</string>
+</resources>

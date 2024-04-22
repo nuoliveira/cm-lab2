@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Lab 2</string>
+    <string name="fragment_note_list_title">Notes</string>
+    <string name="fragment_note_list_menu_new_note">New note</string>
+    <string name="fragment_new_note_title">New note</string>
+    <string name="fragment_new_note_menu_create">Create note</string>
+    <string name="fragment_new_note_text_hint">Text</string>
+    <string name="fragment_new_note_success">Note successfully created</string>
+    <string name="fragment_new_note_error">Input a minimum of 5 characters</string>
+    <string name="fragment_edit_note_title">Edit note</string>
+    <string name="fragment_edit_note_menu_update">Update note</string>
+    <string name="fragment_edit_note_menu_delete">Delete note</string>
+    <string name="fragment_edit_note_text_hint">Text</string>
+    <string name="fragment_edit_note_success">Note successfully edited</string>
+    <string name="fragment_edit_note_error">Input a minimum of 5 characters</string>
+</resources>
